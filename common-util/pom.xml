@@ -9,9 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>BlogCommon</artifactId>
-    <build>
-        <finalName>BlogCommon</finalName>i
-    </build>
+    <artifactId>common-util</artifactId>
+
 
 </project>
