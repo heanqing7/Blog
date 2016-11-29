@@ -23,12 +23,16 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="article-module" />
+        <module name="blog-web" />
+        <module name="common-util" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.7">
       <module name="article-module" target="1.5" />
       <module name="Blog" target="1.5" />
+      <module name="blog-web" target="1.5" />
       <module name="BlogCommon" target="1.5" />
+      <module name="common-util" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
