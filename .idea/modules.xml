@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Blog.iml" filepath="$PROJECT_DIR$/Blog.iml" />
       <module fileurl="file://$PROJECT_DIR$/article-module/article-module.iml" filepath="$PROJECT_DIR$/article-module/article-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blog/blog.iml" filepath="$PROJECT_DIR$/blog/blog.iml" />
       <module fileurl="file://$PROJECT_DIR$/blog-web/blog-web.iml" filepath="$PROJECT_DIR$/blog-web/blog-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-util/common-util.iml" filepath="$PROJECT_DIR$/common-util/common-util.iml" />
     </modules>
