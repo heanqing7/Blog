@@ -1,4 +1,4 @@
-package com.heanqing.web.blog.Service;
+package com.heanqing.web.blog.service;
 
 import com.heanqing.web.blog.dao.UserDao;
 import com.heanqing.web.blog.model.User;

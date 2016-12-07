@@ -1,8 +1,11 @@
 package com.heanqing.web.blog.model;
 
+import org.springframework.stereotype.Component;
+
 /**
  * Created by heanqing on 2016/12/2.
  */
+@Component
 public class User {
     private Long id;
     private String username;
@@ -75,5 +78,19 @@ public class User {
 
     public void setCreate_time(Long create_time) {
         this.create_time = create_time;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", age=" + age +
+                ", money=" + money +
+                ", valid=" + valid +
+                ", description='" + description + '\'' +
+                ", create_time=" + create_time +
+                '}';
     }
 }
